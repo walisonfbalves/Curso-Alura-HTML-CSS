@@ -1,0 +1,62 @@
+
+body {
+    
+}
+
+#banner {
+    width: 100%;
+}
+
+.principal {
+    background-color: #cccccc;
+    padding: 30px;
+}
+
+.titulo-principal{
+    padding-left: 20px;
+}
+
+.titulo-centralizado {
+    text-align: center;
+}
+
+p {
+    /* alinhar o texto no centro */
+    text-align: center;
+}
+
+/* buscando todos os strongs que estão dentro dos em */
+em strong {
+    color: red;
+}
+
+#missao {
+    font-size: 20px;
+}
+
+.itens {
+    font-style: italic;
+}
+
+h2 {
+    text-align: center;
+}
+
+.beneficios {
+    background-color:#FFFFFF;
+    padding: 20px;
+}
+
+ul {
+    /* inline-block ele bloqueia uma largura, mas essa largura é fixa. Sou eu que dou o tamanho. E ele me deixa também mexer na largura e nos espaçamentos interno e externo. */
+    display: inline-block;
+    vertical-align: top;
+    width: 20%;
+    margin-right: 15%;
+}
+
+
+
+.imagemBeneficios {
+    width: 50%;
+}
