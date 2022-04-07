@@ -1,0 +1,135 @@
+header {
+    background-color: #bbbbbb;
+    padding: 20px 0px;
+}
+
+.caixa {
+    position: relative;
+    width: 940px;
+    margin: 0 auto;   
+}
+
+nav {
+    position: absolute;
+    top: 110px;
+    right: 0px;
+}
+
+nav li {
+    display: inline;
+    text-transform: uppercase;
+    margin: 0 0 0 15px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #000000;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+nav a:hover {
+    color: #C78C19;
+    text-decoration: underline;
+}
+
+.produtos ul {
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+
+.produtos li {
+    display: inline-block; 
+    box-sizing: border-box;
+    width: 30%;
+    padding: 30px 20px;
+    margin: 0 1.5%;
+    text-align: center; 
+    vertical-align: top;
+    border: 2px solid #000000;
+    border-radius: 10px;
+}
+
+.produtos ul li:active {
+    border-color: #088C19;    
+}
+
+.produtos li:hover {
+    border-color: #C78C19;
+}
+
+.produtos li:hover h2 {
+    font-size: 35px;
+}
+
+.produtos h2 {
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.descricao-produto {
+    font-size: 18px;
+}
+
+.preco-produto {
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+footer {
+    background: url("imagens/bg.jpg");
+    text-align: center;
+    padding: 15px 0px;
+}
+
+footer p {
+    font-size: 13px;
+    color: #FFFFFF;
+    margin-top: 20px;
+}
+
+main{
+    width: 940px;
+    margin: 0 auto;
+}
+
+form {
+    margin: 40px 0px;
+}
+
+main form label, form p {
+    display: block;
+    font-size: 23px;
+    margin: 15px 0;
+}
+
+.cadastro {
+    display: block;
+    padding: 10px 10px;
+    margin: 15px 0px;
+    width: 50%;
+    font-size: 18px;
+}
+
+.espacamento{
+    margin: 25px 0px;
+}
+
+option, select {
+    width: 13%;
+    font-size: 18px;
+    padding: 15px 15px;
+}
+
+.radioButton:hover, select:hover, #novidades:hover, #submit:hover{
+    cursor: pointer;
+}
+
+
+
+
+
+
+
