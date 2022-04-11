@@ -22,74 +22,77 @@
         </div>
     </header>
     <main>
-        <form>
-            <fieldset class="espacamento">
-                <label for="nomeCompleto"> Nome completo</label>
-                <input type="text" name="Nome Completo" id="nomeCompleto" class="cadastro" required>
+        <div class="caixa-contato">
+            <form>
+                <fieldset class="espacamento">
+                    <label for="nomeCompleto"> Nome completo</label>
+                    <input type="text" name="Nome Completo" id="nomeCompleto" class="cadastro" required>
 
-                <label for="email">Email</label>
-                <input type="email" name="Email" id="email" class="cadastro" placeholder="seuemail@dominio.com" required>
+                    <label for="email">Email</label>
+                    <input type="email" name="Email" id="email" class="cadastro" placeholder="seuemail@dominio.com"
+                        required>
 
-                <label for="telefoneCelular">Telefone</label>
-                <input type="tel" name="Telefone" id="telefoneCelular" class="cadastro" placeholder="(XX) XXXXX-XXXX" required>
+                    <label for="telefoneCelular">Telefone</label>
+                    <input type="tel" name="Telefone" id="telefoneCelular" class="cadastro"
+                        placeholder="(XX) XXXXX-XXXX" required>
 
-                <label for="mensagem">Mensagem</label>
-                <textarea name="mensagem" id="mensagem" cols="70" rows="10" class="cadastro"></textarea>
-            </fieldset>
-            <fieldset class="espacamento">
-                <legend>Como você prefere nosso contato?</legend>
-                <label for="radio-email"><input type="radio" name="radio-contato" id="radio-email"
-                        class="radioButton">Email</label>
+                    <label for="mensagem">Mensagem</label>
+                    <textarea name="mensagem" id="mensagem" cols="70" rows="10" class="cadastro"></textarea>
+                </fieldset>
+                <fieldset class="espacamento">
+                    <legend>Como você prefere nosso contato?</legend>
+                    <label for="radio-email"><input type="radio" name="radio-contato" id="radio-email"
+                            class="radioButton">Email</label>
 
-                <label for="radio-telefone"> <input type="radio" name="radio-contato" id="radio-telefone"
-                        class="radioButton">Telefone</label>
+                    <label for="radio-telefone"> <input type="radio" name="radio-contato" id="radio-telefone"
+                            class="radioButton">Telefone</label>
 
-                <label for="radio-whatsapp"><input type="radio" name="radio-contato" id="radio-whatsapp"
-                        class="radioButton" checked>Whatsapp</label>
+                    <label for="radio-whatsapp"><input type="radio" name="radio-contato" id="radio-whatsapp"
+                            class="radioButton" checked>Whatsapp</label>
 
-            </fieldset>
+                </fieldset>
 
-            <fieldset class="espacamento">
-                <legend>Qual horário prefere ser atendido?</legend>
-                <select name="horario" id="horario">
-                    <option>Manhã</option>
-                    <option>Tarde</option>
-                    <option>Noite</option>
-                </select>
-            </fieldset>
+                <fieldset class="espacamento">
+                    <legend>Qual horário prefere ser atendido?</legend>
+                    <select name="horario" id="horario">
+                        <option>Manhã</option>
+                        <option>Tarde</option>
+                        <option>Noite</option>
+                    </select>
+                </fieldset>
 
-            <fieldset class="espacamento">
-                <label for="novidades">
-                    <input type="checkbox" id="novidades" checked> Gostaria de receber nossas novidades por email?
-                </label>
-            </fieldset>
+                <fieldset class="espacamento">
+                    <label for="novidades">
+                        <input type="checkbox" id="novidades" checked> Gostaria de receber nossas novidades por email?
+                    </label>
+                </fieldset>
 
-            <input type="submit" id="submit" value="Enviar formulário" class="botaoEnviar">
-        </form>
+                <input type="submit" id="submit" value="Enviar formulário" class="botaoEnviar">
+            </form>
 
-        <table>
-            <thead>
-                <tr>
-                    <th>Dia</th>
-                    <th colspan="2">Horário</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>Segunda</td>
-                    <td colspan="2">8h ~ 20h</td>
-                </tr>
-                <tr>
-                    <td>Quarta</td>
-                    <td colspan="2">8h ~ 20h</td>
-                </tr>
-                <tr>
-                    <td>Sexta</td>
-                    <td colspan="2">8h ~ 20h</td>
-                </tr>
-            </tbody>
-        </table>
-
+            <table>
+                <thead>
+                    <tr>
+                        <th>Dia</th>
+                        <th colspan="2">Horário</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Segunda</td>
+                        <td colspan="2">8h ~ 20h</td>
+                    </tr>
+                    <tr>
+                        <td>Quarta</td>
+                        <td colspan="2">8h ~ 20h</td>
+                    </tr>
+                    <tr>
+                        <td>Sexta</td>
+                        <td colspan="2">8h ~ 20h</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
     </main>
     <footer>
         <img src="imagens/logo-branco.png" alt="Logo da Barbearia Alura">
